@@ -1,0 +1,13 @@
+/*001*/
+p {
+	text-align: center;
+	text-justify: auto;
+}
+
+/*011*/
+p.principal{
+	background-color: #FFFFD2;
+	position:relative;
+	left: 50%;
+    transform: translateX(-50%);
+}
