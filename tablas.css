@@ -1,0 +1,22 @@
+/*001*/
+table{
+    border: collapse;
+    width: 100%;
+    height: 30px;
+}
+
+/*001*/
+th{
+    text-align: center;
+    vertical-align: middle;
+} 
+
+/*001*/
+table, th, td{
+    border: 3px solid black;
+}
+
+/*011*/
+tr:hover {
+    background-color: rgb(255,255,0);
+}

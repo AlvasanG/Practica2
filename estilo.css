@@ -1,74 +1,59 @@
-/* 001 */
-h1, h2, h3, h4, h, h6{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    background-color: orange;
-    color: blue;
-    padding: 25%;
-    margin: 10%;
-    align-content: center;
-    text-transform: capitalize;
-    /*letter-spacing: 2em;*/
-}
-/* 001 */
-h1, h3, h5{
-    font-stretch: expanded;
-}
-/* 001 */
-h2, h4, h6{
-    font-style: italic;
-}
-/* 001 */
-h1{
-  font-size: 4em;
-  border-radius: 15px 50px 30px 5px;
-}
-/* 001 */
-h2{
-    font-size: 2.5em;
+/*001*/
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
 }
 
-/* 001 */
-h3{
-    font-size: 1.8em;
+/*001*/
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+	color: rgb(13,255,113);
+	background-color: rgb(58,63,86);
+	text-align: center;
+	text-transform: uppercase;
+	
 }
-/* 001 */
-h4{
-    font-size: 1.5em;
+
+/*001*/
+h1 {
+    font-style: italic;
+    font-size: 3em;
+    margin: 1em;
 }
-/* 001 */
-h5{
-    font-size: 1.3em;
+
+/*001*/
+h2, h3, h4, h5, h6{
+    margin: 0.5em;
 }
-/* 001 */
-h6{
-    font-size: 1em;
-}
-/* 001 */
-p, li, td{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
-}
-/* 002 */
-p::first-letter{
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: bolder;
-}
-/* 001 */
-p{
-    background-color: lime;
-    color: fuchsia;
-    align-content: space-between;
-    justify-content: end;
-}
-/* 011 */
+
+/*011*/
 a:link{
-    text-decoration-line: line-through;
-    color: red;
+    color: rgb(84,34,0);
+    text-decoration: underline;
 }
-/* 011 */
+
+/*011*/
 a:visited{
-    text-decoration-line: underline;
-    color: green;
+    color: rgb(137,41,119);
 }
+
+/*013*/
+ul li a:hover{
+    text-decoration: none;
+    background-color: rgb(255,255,0);
+}
+
+/*004*/
+nav ul li{
+   list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+/*003*/
+ul li{
+   list-style-type: square;
+    list-style-position: inside;
+}
+

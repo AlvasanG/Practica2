@@ -1,0 +1,16 @@
+/* LAYOUT */
+img{
+	position:relative;
+ 	left: 50%;
+    transform: translateX(-50%);
+}
+
+figcaption{
+	text-align: center;
+}
+
+li{
+    position: relative;
+    left: 5%;
+}
+
